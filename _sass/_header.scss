@@ -1,0 +1,27 @@
+.navbar {
+	a {
+		color: #fff;
+		text-decoration: none;
+		padding-top:41px;
+
+		&:hover {
+			color:#fff;
+			background-color:transparent;
+		}
+	}
+
+	.navbar-nav {
+		li {
+			color: #fff;
+			text-decoration: none;
+			padding-top:30px;
+			letter-spacing:3px;
+			font-size:26px;
+
+			&:hover {
+				color:#fff;
+				background-color:transparent;
+			}
+		}
+	}
+}
