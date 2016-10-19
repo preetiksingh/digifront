@@ -1,0 +1,22 @@
+#violation {
+	background-image: url('/images/background-hero.png');
+	background-size: cover;
+	background-position: 21% ;
+	height: 70vh;
+	color: #fff;
+
+	.violation-btn{
+		padding:15px 55px;
+		
+		color:#fff;
+		font-size:20px;
+		border-radius: 50px;
+		border:1px solid #fff;
+	}
+
+	.violation-row {
+		margin-top:20px
+	}
+
+	
+}

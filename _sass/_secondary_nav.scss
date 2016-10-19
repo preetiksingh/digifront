@@ -1,0 +1,27 @@
+#secondary-nav {
+	border-bottom: 1px solid #dadada;
+	
+	ul {
+		/*position: relative;
+		left:-32px;*/
+		li {
+			a {
+				padding-right: 40px;
+				font-size:17px;
+				letter-spacing: 1px;
+			}
+			&.active {
+				a {
+
+					background-color: transparent;
+					color:$blue;
+				}
+			}
+		}
+	}
+
+	.navbar-default {
+		background-color:$white;
+		border-color: transparent;
+	}
+}
