@@ -1,9 +1,32 @@
 #violation {
-	background-image: url('/images/background-hero.png');
+	background-image: url('/images/background-section.png');
 	background-size: cover;
 	background-position: 21% ;
 	height: 70vh;
 	color: #fff;
+	padding:100px 0px 70px 0px ;
+
+	p {
+		font-size:19px;
+	}
+
+	ul {
+		list-style: none;
+		margin-top:23px;
+		li {
+			display:inline;
+			padding-right:15px;
+
+			a {
+				letter-spacing: 2px;
+				&:hover{
+					background-color:#fff;
+					color:#000;
+				}
+			}
+		}
+
+	}
 
 	.violation-btn{
 		padding:15px 55px;
