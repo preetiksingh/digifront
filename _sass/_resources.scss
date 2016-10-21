@@ -1,0 +1,72 @@
+#resources {
+	background-image: url('/images/background-hero.png');
+	background-size: cover;
+	background-position: 21% ;
+	height: 55vh;
+	color: #fff;
+	position: relative;
+
+	.vh-center {
+		position:relative;
+		top:10%;
+		h1 {
+			letter-spacing: 10px;
+			font-size: 55px;
+			margin-bottom:15px;
+		}
+		
+	}
+}
+
+
+#resources-content  {
+	.resources-container {
+		margin-left:119px;
+	}
+	img {
+		margin-bottom :50px;
+	}
+
+	.address{
+		margin-bottom:30px;
+	}
+
+	h4{
+		margin-top:40px;
+		margin-bottom:46px;
+		padding-left: 40px;
+	}
+p{
+	line-height: 30px;
+	font-size: 19px;
+	
+}
+.alphabets {
+	border-left:1px solid #dadada;
+	padding-left:40px;
+	
+	ul{
+		list-style: none;
+		margin-bottom:20px;
+
+
+
+		li {
+			display:inline-block;
+			background-color: #F1F8FE;
+			width:50px;
+			text-align: center;
+			height:50px;
+			padding-top:16px;
+			margin-right:10px;
+
+		}
+	}
+}
+.links-heading {
+	border-top: 1px solid #dadada;
+}
+.links {
+	padding-left:38px;
+}
+}

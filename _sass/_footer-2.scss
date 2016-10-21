@@ -1,18 +1,21 @@
 #footer-2 {
+	font-family: 'Open Sans', sans-serif;
 	padding:30px 0;
 	background-color: #162436;
 	.help-text {
 		font-size:20px;
 		color:#6b7073;
+		letter-spacing: 2px;
 	}
 
 	.contact {
-		font-size:15px;
+		font-size:25px;
 		color:#fff;
+		letter-spacing: 2px;
 	}
 
 	.copyright {
 		font-size:20px;
 		color:#6b7073;
-	}
+}
 }

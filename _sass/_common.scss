@@ -1,4 +1,16 @@
+
+$font-name: "Brevia";
+$font-path-file-name: '../fonts/BreviaW01Light';
+
+
+@font-face {
+ font-family: $font-name;
+ src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
+ src: url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
+      url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url($font-path-file-name+'.svg') format('svg'); /* Legacy iOS */;
+      
+}
 body {
-	
-	font-family: 'Open Sans', sans-serif;
+font-family:$font-name;
 }
