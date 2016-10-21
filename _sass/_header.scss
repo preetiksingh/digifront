@@ -18,10 +18,13 @@
 			letter-spacing:3px;
 			font-size:26px;
 
+			a {
+
 			&:hover {
 				color:#fff;
 				background-color:transparent;
 			}
+		}
 		}
 	}
 }
