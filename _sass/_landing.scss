@@ -1,5 +1,5 @@
 #landing {
-	background-image: url('/images/background-hero.png');
+	background-image: url('{{ site.baseurl }}/images/background-hero.png');
 	background-size: cover;
 	background-position: 21% ;
 	height: 100vh;
