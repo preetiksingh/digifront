@@ -26,6 +26,11 @@
 		margin-left:119px;
 	}
 
+	.glossary-column {
+		border-right:1px solid #dadada;
+		padding:20px 60px 20px 0;
+	}
+
 	    .strike {
         display: block;
         text-align: left;
@@ -66,19 +71,20 @@
     color: $green;
 	}
 
-	h4{
-		margin-top:40px;
-		margin-bottom:46px;
-		padding-left: 40px;
-	}
+
 p{
 	line-height: 30px;
-	font-size: 19px;
-			margin-bottom:45px;
+	margin-bottom:45px;
+	font-size: 17px;
 }
 .alphabets {
-	border-left:1px solid #dadada;
 	padding-left:0px;
+
+		h4{
+		margin-top: 40px;
+    margin-bottom: 28px;
+    padding-left: 40px;
+	}
 	
 	ul{
 		list-style: none;
@@ -94,6 +100,7 @@ p{
 			height:50px;
 			padding-top:16px;
 			margin-right:10px;
+			font-weight: bold;
 
 		}
 	}
@@ -103,5 +110,8 @@ p{
 }
 .links {
 	padding-left:38px;
+	p {
+		margin-bottom: 4px;
+	}
 }
 }

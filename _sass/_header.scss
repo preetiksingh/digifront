@@ -20,9 +20,9 @@
 
 			a {
 
-			&:hover, &:active {
-				color:$white;
-				background-color:transparent;
+			&:hover, &:active, &:focus {
+				color: $white;
+				background-color: transparent;
 			}
 		}
 		}
