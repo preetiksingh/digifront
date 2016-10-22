@@ -1,14 +1,13 @@
-#landing {
+	#landing {
 	background-image: url('../images/background-hero.png');
 	background-size: cover;
 	background-position: 21% ;
-	height: 91vh;
+	min-height: 91vh;
 	color: #fff;
 	position: relative;
 
 	.vh-center {
-		position:relative;
-		top:10%;
+		margin-top: 7%;
 		h1 {
 			letter-spacing: 5px;
 			font-size: 63px;
@@ -68,4 +67,26 @@
 
 	
 
+}
+
+@media only screen and (max-width: 768px) {
+		#landing {
+			min-height: 100vh;
+			.btn-home {
+				letter-spacing: 1px;
+			}
+
+			.or-text {
+				font-size: 15px;
+				position: relative;
+				left:1px;
+			}
+    .enter-address {
+    	margin-bottom :20px;
+
+    }
+    .vh-center {
+    	margin-top: 0;
+    }
+  }
 }
