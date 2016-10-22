@@ -11,9 +11,14 @@
 		position:relative;
 		top:10%;
 		h1 {
-			letter-spacing: 10px;
-			font-size: 55px;
+			letter-spacing: 4px;
+			font-size: 63px;
 			margin-bottom:15px;
+		}
+
+		p{
+			letter-spacing: 1px;
+			font-size: 19px;
 		}
 		
 	}
@@ -37,6 +42,7 @@
         overflow: hidden;
         white-space: nowrap;
         margin-top: 30px; 
+         margin-bottom: 32px;
     }
 
     .strike > span {
