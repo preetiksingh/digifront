@@ -1,18 +1,18 @@
 .transparent-nav {
 	a {
-		color: #fff;
+		color: $white;
 		text-decoration: none;
 		padding-top:41px;
 
 		&:hover {
-			color:#fff;
+			color: $white;
 			background-color:transparent;
 		}
 	}
 
 	.navbar-nav {
 		li {
-			color: #fff;
+			color: $white;
 			text-decoration: none;
 			padding-top:30px;
 			letter-spacing:3px;
@@ -20,11 +20,16 @@
 
 			a {
 
-			&:hover {
-				color:#fff;
+			&:hover, &:active {
+				color:$white;
 				background-color:transparent;
 			}
 		}
 		}
 	}
 }
+
+
+.landing-contact{
+		font-size: 30px;
+	}
