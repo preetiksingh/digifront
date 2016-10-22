@@ -2,7 +2,7 @@
 	background-image: url('../images/background-hero.png');
 	background-size: cover;
 	background-position: 21% ;
-	height: 55vh;
+	height: 53vh;
 	color: $white;
 	position: relative;
 
@@ -10,9 +10,9 @@
 		position:relative;
 		top:10%;
 		h1 {
-			letter-spacing: 10px;
-			font-size: 55px;
-			margin-bottom:15px;
+		letter-spacing: 11px;
+    font-size: 64px;
+    margin-bottom: 15px;
 		}
 		
 	}
@@ -20,8 +20,21 @@
 
 
 #resources-content  {
+	font-family: 'Open Sans', sans-serif;
+
+	h3{
+		font-weight: 300;
+	}
 	.resources-container {
 		margin-left:119px;
+	}
+
+	.office-locations {
+		padding:40px 0;
+	}
+
+	.resources-links {
+		padding: 40px 0 40px 62px;
 	}
 	img {
 		margin-bottom :50px;
@@ -31,20 +44,20 @@
 		margin-bottom:30px;
 	}
 
-	h4{
-		margin-top:40px;
-		margin-bottom:46px;
-		padding-left: 40px;
-	}
+	/*h4{
+		margin-top: 40px;
+		margin-bottom: 30px;
+		
+	}*/
 p{
 	line-height: 30px;
-	font-size: 19px;
+	font-size: 15px;
 	
 }
 .alphabets {
-	border-left:1px solid #dadada;
-	padding-left:40px;
 	
+	padding-left:0;
+
 	ul{
 		list-style: none;
 		margin-bottom:20px;
@@ -67,6 +80,11 @@ p{
 	border-top: 1px solid #dadada;
 }
 .links {
-	padding-left:38px;
+	border-top: 1px solid #dadada;
+}
+
+.office-locations {
+	border-right:1px solid #dadada;
+	height:250vh;
 }
 }

@@ -1,10 +1,13 @@
 #secondary-nav {
 	border-bottom: 1px solid #dadada;
-	padding-top:10px; 
+	padding:15px 0 0 0; 
+
+	.navbar {
+			margin-bottom:12px;
+	}
 	
 	ul {
-		/*position: relative;
-		left:-32px;*/
+	
 		li {
 			a {
 				padding-right: 37px;
