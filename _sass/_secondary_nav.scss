@@ -1,6 +1,4 @@
 #secondary-nav {
-	border-bottom: 1px solid #dadada;
-	padding:15px 0 0 0; 
 
 	.navbar {
 			margin-bottom:12px;
@@ -26,6 +24,14 @@
 
 	.navbar-default {
 		background-color:$white;
-		border-color: transparent;
+		border-top:0;
+		padding-bottom:12px;
+		padding-top:12px;
 	}
+
+	.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
 }

@@ -49,3 +49,22 @@
 
 	
 }
+
+
+@media only screen and (max-width: 768px) {
+		#violation {
+			ul {
+				li {
+					margin-bottom: 40px;
+
+				}
+			}
+  }
+  .violation-btn {
+  	margin-bottom: 17px;
+  	font-size:14px !important;
+  }
+  .permit-btn {
+  	margin-right: 15px;
+  }
+}
