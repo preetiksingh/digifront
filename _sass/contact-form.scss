@@ -65,7 +65,6 @@
 				select {
 					/*-webkit-appearance: none;*/
 					-webkit-border-radius: 0px;
-					font-size:15px;
 					color:#444;
 				}
 
@@ -116,6 +115,15 @@
 			p{
 				margin:10px !important;
 			}
+		}
+
+		.close {
+			opacity: 1;
+			color: #fff;
+			font-size: 52px;
+			position: relative;
+			right: -36px;
+			top: -49px;
 		}
 
 	}
