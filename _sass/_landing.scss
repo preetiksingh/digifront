@@ -1,78 +1,78 @@
 	#landing {
-	background-image: url('../images/background-hero.png');
-	background-size: cover;
-	background-position: 21% ;
-	min-height: 91vh;
-	color: #fff;
-	position: relative;
-
-	.vh-center {
-		    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-		h1 {
-			letter-spacing: 5px;
-			font-size: 63px;
-			margin-bottom:15px;
-		}
-		p{
-			font-size: 20px;
-			text-align: center;
-			margin-bottom:45px;
-			letter-spacing: 1px;
-		}
-	}
-
-	#usr {
-		
-		border-radius: 0;
-		background-color: $gray;
-		border-color:$gray;
-		width: 100%;
-		padding: 25px;
-		display:inline-block;
-
-	}
-
-	.btn-home {
-		padding:21px 20px;
-		border-radius:0px;
-		width:45%;
-		display: inline-block;
-		font-size:19px;
-		letter-spacing: 5px;
-		font-weight: bold;
-	}
-
-	.or-text {
+		background-image: url('../images/background-hero.png');
+		background-size: cover;
+		background-position: 21% ;
+		min-height: 91vh;
+		color: #fff;
 		position: relative;
-		left: 22px;
-		font-size: 19px;
-		font-weight: bold;
+
+		.vh-center {
+			position: absolute;
+			width: 100%;
+			top: 50%;
+			transform: translateY(-50%);
+			h1 {
+				letter-spacing: 5px;
+				font-size: 63px;
+				margin-bottom:15px;
+			}
+			p{
+				font-size: 20px;
+				text-align: center;
+				margin-bottom:45px;
+				letter-spacing: 1px;
+			}
+		}
+
+		input {
+
+			border-radius: 0;
+			background-color: $gray;
+			border-color:$gray;
+			width: 100%;
+			padding: 25px;
+			display:inline-block;
+
+		}
+
+		.btn-home {
+			padding:21px 20px;
+			border-radius:0px;
+			width:45%;
+			display: inline-block;
+			font-size:19px;
+			letter-spacing: 5px;
+			font-weight: bold;
+		}
+
+		.or-text {
+			position: relative;
+			left: 22px;
+			font-size: 19px;
+			font-weight: bold;
+		}
+
+		.green {
+			background-color: $green;
+			color: $white;
+			border-color: $green;
+		}
+
+		.blue {
+			background-color: $blue;
+			color: $white;
+			border-color: $blue;
+		}
+
+		.mar-20 {
+			margin-bottom: 35px;
+		}
+
+
+
 	}
 
-	.green {
-		background-color: $green;
-		color: $white;
-		border-color: $green;
-	}
-
-	.blue {
-		background-color: $blue;
-		color: $white;
-		border-color: $blue;
-	}
-
-	.mar-20 {
-		margin-bottom: 35px;
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 768px) {
 		#landing {
 			min-height: 100vh;
 			.btn-home {
@@ -84,12 +84,12 @@
 				position: relative;
 				left:1px;
 			}
-    .enter-address {
-    	margin-bottom :20px;
+			.enter-address {
+				margin-bottom :20px;
 
-    }
-    .vh-center {
-    	margin-top: 0;
-    }
-  }
-}
+			}
+			.vh-center {
+				margin-top: 0;
+			}
+		}
+	}

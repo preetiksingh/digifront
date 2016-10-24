@@ -4,6 +4,11 @@ $( document ).ready(function() {
       top: 760
     }
   });
+  count=3
+
+  $(".add-btn").click(function(){
+        $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20" id=' + '"violation-' + count + '">' )
+    });
 
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
