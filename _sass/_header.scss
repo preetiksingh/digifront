@@ -20,16 +20,15 @@
 
 			a {
 
-			&:hover, &:active, &:focus {
-				color: $white;
-				background-color: transparent;
+				&:hover, &:active, &:focus {
+					color: $white;
+					background-color: transparent;
+				}
 			}
-		}
 		}
 	}
 }
 
-
 .landing-contact{
-		font-size: 30px;
-	}
+	font-size: 30px;
+}

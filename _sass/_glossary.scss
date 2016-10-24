@@ -6,7 +6,6 @@
 	color: #fff;
 	position: relative;
 
-
 	.vh-center {
 		position:relative;
 		top:10%;
@@ -24,7 +23,6 @@
 	}
 }
 
-
 #glossary-content  {
 	font-family: 'Open Sans', sans-serif;
 	.glossary-container {
@@ -36,88 +34,85 @@
 		padding:20px 60px 20px 0;
 	}
 
-	    .strike {
-        display: block;
-        text-align: left;
-        overflow: hidden;
-        white-space: nowrap;
-        margin-top: 30px; 
-         margin-bottom: 32px;
-    }
+	.strike {
+		display: block;
+		text-align: left;
+		overflow: hidden;
+		white-space: nowrap;
+		margin-top: 30px; 
+		margin-bottom: 32px;
+	}
 
-    .strike > span {
-        position: relative;
-        display: inline-block;
-    }
+	.strike > span {
+		position: relative;
+		display: inline-block;
+	}
 	
-    .strike > span:before,
-    .strike > span:after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        width: 9999px;
-        height: 1px;
-        background: #dadada;
-    }
+	.strike > span:before,
+	.strike > span:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		width: 9999px;
+		height: 1px;
+		background: #dadada;
+	}
 
-    .strike > span:before {
-        right: 100%;
-        margin-right: 15px;
-    }
+	.strike > span:before {
+		right: 100%;
+		margin-right: 15px;
+	}
 
-    .strike > span:after {
-        left: 100%;
-        margin-left: 15px;
-    }
+	.strike > span:after {
+		left: 100%;
+		margin-left: 15px;
+	}
 
 	.alphabet-circle {
 		padding: 13px 20px;
-    border: 2px solid $green;
-    border-radius: 50%;
-    color: $green;
+		border: 2px solid $green;
+		border-radius: 50%;
+		color: $green;
 	}
 
 
-p{
-	line-height: 30px;
-	margin-bottom:45px;
-	font-size: 17px;
-}
-.alphabets {
-	padding-left:0px;
+	p{
+		line-height: 30px;
+		margin-bottom:45px;
+		font-size: 17px;
+	}
+	.alphabets {
+		padding-left:0px;
 
 		h4{
-		margin-top: 40px;
-    margin-bottom: 28px;
-    padding-left: 40px;
-	}
-	
-	ul{
-		list-style: none;
-		margin-bottom:20px;
+			margin-top: 40px;
+			margin-bottom: 28px;
+			padding-left: 40px;
+		}
+		
+		ul{
+			list-style: none;
+			margin-bottom:20px;
+			li {
+				display:inline-block;
+				background-color: #F1F8FE;
+				width:50px;
+				text-align: center;
+				height:50px;
+				padding-top:16px;
+				margin-right:10px;
+				font-weight: bold;
 
-
-
-		li {
-			display:inline-block;
-			background-color: #F1F8FE;
-			width:50px;
-			text-align: center;
-			height:50px;
-			padding-top:16px;
-			margin-right:10px;
-			font-weight: bold;
-
+			}
 		}
 	}
-}
-.links-heading {
-	border-top: 1px solid #dadada;
-}
-.links {
-	padding-left:38px;
-	p {
-		margin-bottom: 4px;
+	.links-heading {
+		border-top: 1px solid #dadada;
 	}
-}
+	.links {
+		padding-left:38px;
+		p {
+			margin-bottom: 4px;
+		}
+	}
 }
