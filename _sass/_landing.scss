@@ -2,18 +2,18 @@
 	background-image: url('../images/background-hero.png');
 	background-size: cover;
 	background-position: 21% ;
-	min-height: 91vh;
+	min-height: 110vh;
 	color: #fff;
 	position: relative;
 
 	.vh-center {
-		    position: absolute;
+		position: absolute;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
 		h1 {
-			letter-spacing: 5px;
-			font-size: 63px;
+			letter-spacing: 3px;
+			font-size: 58px;
 			margin-bottom:15px;
 		}
 		p{
@@ -25,18 +25,18 @@
 	}
 
 	#usr {
-		
 		border-radius: 0;
 		background-color: $gray;
-		border-color:$gray;
-		width: 100%;
-		padding: 25px;
-		display:inline-block;
-
+    width: 100%;
+    padding: 18px;
+    display: inline-block;
+    border: none;
+    color: black;
+    outline-width: 0;
 	}
 
 	.btn-home {
-		padding:21px 20px;
+		padding:15px 20px;
 		border-radius:0px;
 		width:45%;
 		display: inline-block;
@@ -47,7 +47,7 @@
 
 	.or-text {
 		position: relative;
-		left: 22px;
+		left: 19px;
 		font-size: 19px;
 		font-weight: bold;
 	}
