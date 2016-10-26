@@ -70,15 +70,17 @@
 
 	}
 
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 480px) {
 		#landing {
 			min-height: 100vh;
+
+
 			.btn-home {
 				letter-spacing: 1px;
 			}
 
 			.or-text {
-				font-size: 15px;
+				font-size: 12px;
 				position: relative;
 				left:1px;
 			}
@@ -88,6 +90,23 @@
 			}
 			.vh-center {
 				margin-top: 0;
+
+				h1{
+					font-size: 38px;
+				} 
+
+				p {
+					font-size: 18px;
+				}
+
+				.btn-home {
+					font-size: 15px;
+				}
+				
 			}
 		}
+
+
 	}
+
+

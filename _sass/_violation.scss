@@ -50,7 +50,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
 	#violation {
 		ul {
 			li {
@@ -65,6 +65,6 @@
 		font-size:14px !important;
 	}
 	.permit-btn {
-		margin-right: 15px;
+		padding-right:15px !important;
 	}
 }

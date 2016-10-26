@@ -15,7 +15,7 @@
 			color: $white;
 			text-decoration: none;
 			padding-top:30px;
-			letter-spacing:3px;
+			letter-spacing:1px;
 			font-size:26px;
 
 			a {
@@ -24,11 +24,32 @@
 					color: $white;
 					background-color: transparent;
 				}
+
+				i{
+					margin-left:10px;
+				}
 			}
 		}
+	}
+	.violation-txt {
+		font-size: 24px;
 	}
 }
 
 .landing-contact{
-	font-size: 30px;
+	font-size: 26px;
 }
+
+
+	@media only screen and (max-width: 480px) {
+		.transparent-nav {
+			.ecb-text {
+				font-size: 20px;
+			}
+			.violation-txt {
+				font-size: 20px;
+			}
+
+
+		}
+	}
