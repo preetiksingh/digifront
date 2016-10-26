@@ -2,7 +2,7 @@
 		background-image: url('../images/background-hero.png');
 		background-size: cover;
 		background-position: 21% ;
-		min-height: 91vh;
+		min-height: 92vh;
 		color: #fff;
 		position: relative;
 
@@ -17,10 +17,11 @@
 				margin-bottom:15px;
 			}
 			p{
-				font-size: 20px;
+				font-size: 21px;
 				text-align: center;
 				margin-bottom:45px;
 				letter-spacing: 1px;
+				font-family: 'Open Sans', sans-serif;
 			}
 		}
 
@@ -28,10 +29,15 @@
 
 			border-radius: 0;
 			background-color: $gray;
-			border-color:$gray;
+			border-color:transparent;
 			width: 100%;
-			padding: 25px;
+			padding: 20px;
 			display:inline-block;
+			color:#444; 
+			font-size: 20px; 
+			font-weight:400;
+			font-family: 'Open Sans', sans-serif;
+
 
 		}
 
@@ -43,6 +49,7 @@
 			font-size:19px;
 			letter-spacing: 5px;
 			font-weight: bold;
+			font-family: 'Open Sans', sans-serif;
 		}
 
 		.or-text {
@@ -107,7 +114,84 @@
 			}
 		}
 
+	}
+
+	@media only screen and (max-width: 768px) {
+		#landing {
+			min-height: 100vh;
+
+
+			.btn-home {
+				letter-spacing: 1px;
+			}
+
+			.or-text {
+				font-size: 12px;
+				position: relative;
+				left:1px;
+			}
+			.enter-address {
+				margin-bottom :20px;
+
+			}
+			.vh-center {
+				margin-top: 0;
+
+				h1{
+					font-size: 38px;
+				} 
+
+				p {
+					font-size: 18px;
+				}
+
+				.btn-home {
+					font-size: 15px;
+					padding:12px;
+				}
+				
+			}
+		}
 
 	}
+
+	@media only screen and (max-width : 979px) {
+	#landing {
+			min-height: 100vh;
+
+
+			.btn-home {
+				letter-spacing: 1px;
+			}
+
+			.or-text {
+				font-size: 12px;
+				position: relative;
+				left:1px;
+			}
+			.enter-address {
+				margin-bottom :20px;
+
+			}
+			.vh-center {
+				margin-top: 0;
+
+				h1{
+					font-size: 38px;
+				} 
+
+				p {
+					font-size: 18px;
+				}
+
+				.btn-home {
+					font-size: 15px;
+					padding:12px;
+				}
+				
+			}
+		}
+
+}
 
 

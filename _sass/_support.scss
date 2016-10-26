@@ -35,3 +35,16 @@
 		}
 			
 }
+
+@media only screen and (max-width: 979px) {
+		#support {
+			text-align: center;
+			.support-heading {
+				text-align: center;
+			}
+			.support-btn {
+				    margin-left: 0px;
+			}
+		}
+			
+}
