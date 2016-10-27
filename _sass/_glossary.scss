@@ -2,22 +2,24 @@
 	background-image: url('../images/background-hero.png');
 	background-size: cover;
 	background-position: 21% ;
-	height: 55vh;
+	min-height: 53vh;
 	color: #fff;
 	position: relative;
 
 	.vh-center {
-		position:relative;
-		top:10%;
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
 		h1 {
-			letter-spacing: 4px;
-			font-size: 63px;
-			margin-bottom:15px;
+			letter-spacing: 2px;
+			font-size: 64px;
+			margin-bottom: 15px;
 		}
 
 		p{
+			font-size: 21px;
 			letter-spacing: 2px;
-			font-size: 19px;
 			font-family: 'Open Sans', sans-serif;
 		}
 		
