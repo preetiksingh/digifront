@@ -8,6 +8,7 @@
 }
 
 .transparent-nav {
+
 	.navbar-brand{
 		color: $white;
 		text-decoration: none;
@@ -101,6 +102,7 @@
 		}
 
 		.transparent-nav {	
+			z-index: 99;
 
 			.navbar-brand{
 

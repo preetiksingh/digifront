@@ -50,8 +50,14 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	#violation {
+		padding-top:15px;
+		padding-bottom:15px;
+
+		p {
+			margin-bottom: 15px;
+		}
 		ul {
 			li {
 				margin-bottom: 5px;
@@ -69,7 +75,7 @@
 	}
 }
 
-@media only screen and (max-width: 979px) {
+/*@media only screen and (max-width: 979px) {
 	#violation {
 		ul {
 			li {
@@ -86,4 +92,4 @@
 	.permit-btn {
 		padding-right:15px !important;
 	}
-}
+}*/

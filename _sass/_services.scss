@@ -24,7 +24,6 @@
 		color:$blue;
 		position:relative;
 		top:-18px;
-		font-size: 18px;
 		font-size: 22px;
 	}
 
@@ -36,3 +35,14 @@
 		background-color: #162436;
 	}
 }
+
+	@media only screen and (max-width: 768px) {
+		#services {
+
+			i{
+				position:relative;
+				top:6px;
+			}
+		}
+
+	}

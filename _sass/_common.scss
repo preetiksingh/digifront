@@ -22,6 +22,15 @@ body {
 
 }
 
+@media (min-width: 1200px) {
+
+.custom-container {
+    width: 1250px;
+    margin: 0 auto;
+}
+}
+
+
 ::-webkit-input-placeholder { color:#444; font-size: 22px; font-weight:400;font-family: 'Open Sans', sans-serif; position: relative; top:3px;}
 ::-moz-placeholder { color:#444; font-size: 22px; font-weight:400;font-family: 'Open Sans', sans-serif; padding-top:2px;} /* firefox 19+ */
 :-ms-input-placeholder { color:#444; font-size: 22px; font-weight:400;font-family: 'Open Sans', sans-serif; padding-top:2px;} /* ie */

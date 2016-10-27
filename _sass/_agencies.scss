@@ -24,3 +24,14 @@
 			font-size:19px;
 		}
 }
+
+@media only screen and (max-width: 768px) {
+	#agencies {
+		padding-top:20px;
+		h1{
+		margin-bottom:10px;
+	}
+	
+	}
+	
+}
