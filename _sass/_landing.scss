@@ -97,7 +97,8 @@
 			}
 			.vh-center {
 				margin-top: 0;
-				top: 40%;
+				top: 50%;
+			transform: translateY(-40%);
 
 				h1{
 					font-size: 48px;
