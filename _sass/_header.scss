@@ -86,6 +86,7 @@
 			.navbar-collapse {
 				border-color:#dadada;
 				background-color: #101010 !important;
+				z-index: 9999;
 				ul {
 					float:none !important;
 					li a{
@@ -99,12 +100,12 @@
 			}
 		}
 
-		.transparent-nav {
+		.transparent-nav {	
 
 			.navbar-brand{
 
 				padding-top:15px;
-			
+
 
 			}
 
