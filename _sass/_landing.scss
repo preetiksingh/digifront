@@ -11,6 +11,8 @@
 			width: 100%;
 			top: 50%;
 			transform: translateY(-50%);
+		
+ 
 			h1 {
 				letter-spacing: 5px;
 				font-size: 63px;
@@ -77,45 +79,6 @@
 
 	}
 
-	@media only screen and (max-width: 480px) {
-		#landing {
-			min-height: 100vh;
-
-
-			.btn-home {
-				letter-spacing: 1px;
-			}
-
-			.or-text {
-				font-size: 12px;
-				position: relative;
-				left:1px;
-			}
-			.enter-address {
-				margin-bottom :20px;
-
-			}
-			.vh-center {
-				margin-top: 0;
-
-				h1{
-					font-size: 38px;
-				} 
-
-				p {
-					font-size: 18px;
-				}
-
-				.btn-home {
-					font-size: 15px;
-					padding:12px;
-				}
-				
-			}
-		}
-
-	}
-
 	@media only screen and (max-width: 768px) {
 		#landing {
 			min-height: 100vh;
@@ -126,9 +89,7 @@
 			}
 
 			.or-text {
-				font-size: 12px;
-				position: relative;
-				left:1px;
+				display: none !important;
 			}
 			.enter-address {
 				margin-bottom :20px;
@@ -138,7 +99,7 @@
 				margin-top: 0;
 
 				h1{
-					font-size: 38px;
+					font-size: 48px;
 				} 
 
 				p {
@@ -155,8 +116,8 @@
 
 	}
 
-	@media only screen and (max-width : 979px) {
-	#landing {
+	/*@media only screen and (max-width: 768px) {
+		#landing {
 			min-height: 100vh;
 
 
@@ -165,9 +126,7 @@
 			}
 
 			.or-text {
-				font-size: 12px;
-				position: relative;
-				left:1px;
+				display: none !important;
 			}
 			.enter-address {
 				margin-bottom :20px;
@@ -192,6 +151,45 @@
 			}
 		}
 
-}
+	}*/
+
+	@media only screen and (max-width : 979px) {
+		#landing {
+			min-height: 100vh;
+
+
+			.btn-home {
+				letter-spacing: 1px;
+			}
+
+			.or-text {
+				font-size: 19px;
+				position: relative;
+				left:19px;
+			}
+			.enter-address {
+				margin-bottom :20px;
+
+			}
+			.vh-center {
+				margin-top: 0;
+
+				h1{
+					font-size: 48px;
+				} 
+
+				p {
+					font-size: 20px;
+				}
+
+				.btn-home {
+					font-size: 20px;
+					padding:14px;
+				}
+
+			}
+		}
+
+	}
 
 

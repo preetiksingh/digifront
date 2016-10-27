@@ -124,3 +124,31 @@
 	}
 
 }
+
+@media only screen and (max-width: 768px) {
+		#myModal {
+			input,select {
+
+				margin-bottom: 20px;
+
+			}
+				.mar-20 {
+			margin-bottom: 0px !important;
+		}
+
+		.close {
+		position: relative;
+		right: -9px;
+		top: -24px;
+	}
+
+		.mar-small {
+			margin-bottom: 20px !important;
+		}
+
+		.btn-home {
+			margin-top: 20px;
+		}
+		}
+
+	}

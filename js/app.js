@@ -7,8 +7,15 @@ $( document ).ready(function() {
   count=3
 
   $(".add-btn").click(function(){
-        $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20" id=' + '"violation-' + count + '">' )
+        $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20 mar-small" id=' + '"violation-' + count + '">' )
     });
+
+  $('#secondary-nav > ul.nav li a').click(function(e) {
+    var $this = $(this);
+    $this.parent().siblings().removeClass('active').end().addClass('active');
+    e.preventDefault();
+    console.log('working');
+});
 
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {

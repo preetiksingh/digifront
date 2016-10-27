@@ -2,22 +2,25 @@
 	background-image: url('../images/background-hero.png');
 	background-size: cover;
 	background-position: 21% ;
-	height: 53vh;
+	min-height: 53vh;
 	color: $white;
 	position: relative;
 
 	.vh-center {
-		position:relative;
-		top:10%;
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
 		h1 {
-		letter-spacing: 4px;
-    font-size: 64px;
-    margin-bottom: 15px;
+			letter-spacing: 2px;
+			font-size: 64px;
+			margin-bottom: 15px;
 		}
 
 		p{
-			font-size: 20px;
-			letter-spacing: 1px;
+			font-size: 21px;
+			letter-spacing: 2px;
+			font-family: 'Open Sans', sans-serif;
 		}
 		
 	}
@@ -53,43 +56,76 @@
 		margin-top: 40px;
 		margin-bottom: 30px;
 		
-	}*/
-p{
-	line-height: 30px;
-	font-size: 15px;
-	
-}
-.alphabets {
-	
-	padding-left:0;
-
-	ul{
-		list-style: none;
-		margin-bottom:20px;
-
-
-
-		li {
-			display:inline-block;
-			background-color: #F1F8FE;
-			width:50px;
-			text-align: center;
-			height:50px;
-			padding-top:16px;
-			margin-right:10px;
+		}*/
+		p{
+			line-height: 30px;
+			font-size: 15px;
 
 		}
-	}
-}
-.links-heading {
-	border-top: 1px solid #dadada;
-}
-.links {
-	border-top: 1px solid #dadada;
-}
+		.alphabets {
 
-.office-locations {
-	border-right:1px solid #dadada;
-	height:250vh;
-}
-}
+			padding-left:0;
+
+			ul{
+				list-style: none;
+				margin-bottom:20px;
+
+
+
+				li {
+					display:inline-block;
+					background-color: #F1F8FE;
+					width:50px;
+					text-align: center;
+					height:50px;
+					padding-top:16px;
+					margin-right:10px;
+
+				}
+			}
+		}
+		.links-heading {
+			border-top: 1px solid #dadada;
+		}
+		.links {
+			border-top: 1px solid #dadada;
+		}
+
+		.office-locations {
+			border-right:1px solid #dadada;
+			min-height:250vh;
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		#resources {
+			h1 {
+				letter-spacing: 1px;
+				font-size: 45px;
+				margin-bottom: 12px;
+			}
+
+			p{
+				font-size: 18px;
+				letter-spacing: 1px;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+
+		#resources-content {
+			.resources-container {
+				margin-left:20px;
+
+				.resources-links {
+					padding:20px;
+				}
+			}
+
+			.office-locations {
+				min-height:100vh;
+				border:0;
+				padding:0;
+			}
+		}
+	}
+
