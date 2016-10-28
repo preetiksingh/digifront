@@ -1,10 +1,10 @@
 #secondary-nav {
 	.navbar {
-			margin-bottom:12px;
+		margin-bottom:12px;
 	}
 	
 	ul {
-	
+		
 		li {
 			a {
 				padding-right: 37px;
@@ -30,14 +30,16 @@
 	}
 
 	.affix {
-      top:0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
+		top:0;
+		width: 100%;
+		z-index: 9999 !important;
+		padding-top: 12px;
+		padding-bottom: 9px;
+	}
 
-  .carrot{
-  
-  }
+	.carrot{
+		
+	}
 }
 
 
