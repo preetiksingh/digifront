@@ -8,10 +8,10 @@
 		padding-top: 25px;
 
 		.vh-center {
-			/*position: absolute;
+			position: absolute;
 			width: 100%;
 			top: 50%;
-			transform: translateY(-50%);*/
+			transform: translateY(-50%);
 
 		
  
@@ -104,11 +104,9 @@
 
 			}
 			.vh-center {
-				/*position: absolute;
-				top: 20%;
-				transform: translateY(0%);*/
-
-
+				position: static;
+				top: 0;
+				transform: translateY(0%);
 
 				h1{
 					font-size: 48px;
