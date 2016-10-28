@@ -83,7 +83,7 @@
 
 	@media only screen and (max-width: 768px) {
 		#landing {
-			height: 100vh;
+			min-height: 100vh;
 			
 			padding-top: 0px;
 			/*display: table;
