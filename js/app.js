@@ -7,15 +7,21 @@ $( document ).ready(function() {
   count=3
 
   $(".add-btn").click(function(){
-        $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20 mar-small" id=' + '"violation-' + count + '">' )
-    });
+    $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20 mar-small" id=' + '"violation-' + count + '">' )
+  });
 
-  $('#secondary-nav > ul.nav li a').click(function(e) {
-    var $this = $(this);
-    $this.parent().siblings().removeClass('active').end().addClass('active');
-    e.preventDefault();
-    console.log('working');
-});
+  var path = window.location.pathname
+  if(path == '/resources/' || path == '/glossary/') {
+    $('ul.nav a[href="'+ path.slice(0,-1) +'"]').parent().addClass('active');
+    $('ul.nav a').filter(function() {
+      return this.href == url;
+    }).parent().addClass('active');
+  } else {
+    $('#secondary-nav  ul.nav li a').click(function() {
+      var $this = $(this);
+      $this.parent().siblings().removeClass('active').end().addClass('active');
+    });
+  }
 
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
@@ -31,5 +37,4 @@ $( document ).ready(function() {
       }
     });
   });
-
 });

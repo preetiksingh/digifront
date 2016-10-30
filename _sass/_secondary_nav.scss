@@ -21,6 +21,23 @@
 				}
 			}
 		}
+		li.active {
+      position: relative; 
+			&::before {
+
+    content: '';
+    position: absolute;
+    left: 27%;
+    top: -27px;
+    width: 0;
+    height: 0;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 16px solid #293542;
+    clear: both;
+
+			}
+		}
 	}
 
 	.navbar-default {
@@ -37,9 +54,14 @@
 		padding-bottom: 9px;
 	}
 
-	.carrot{
-		
-	}
+		/*.carrot {
+			width: 0; 
+			height: 0; 
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			
+			border-top: 20px solid #f00;
+		}*/
 }
 
 
