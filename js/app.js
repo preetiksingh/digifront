@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document ).ready(function() {
   $('.second-nav').affix({
     offset: {
       top: 760
@@ -10,18 +10,17 @@ $( document ).ready(function() {
     $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20 mar-small" id=' + '"violation-' + count + '">' )
   });
 
-  var path = window.location.pathname
-  if(path == '/resources/' || path == '/glossary/') {
-    $('ul.nav a[href="'+ path.slice(0,-1) +'"]').parent().addClass('active');
-    $('ul.nav a').filter(function() {
-      return this.href == url;
-    }).parent().addClass('active');
-  } else {
-    $('#secondary-nav  ul.nav li a').click(function() {
-      var $this = $(this);
-      $this.parent().siblings().removeClass('active').end().addClass('active');
-    });
+  if(window.location.pathname == '/') {
+    $('#secondary-nav ul.nav li:first').addClass('active');
   }
+
+  $("#secondary-nav ul.nav li a").each(function() {
+    var href = window.location.href.slice(0,-1);
+    var path = this['href'];
+    if (window.location.pathname != '/' && href == path) {
+      $(this).parent().addClass('active');
+    }
+  });
 
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
