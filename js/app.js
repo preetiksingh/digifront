@@ -10,14 +10,12 @@ $(document ).ready(function() {
     $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20 mar-small" id=' + '"violation-' + count + '">' )
   });
 
-  if(window.location.pathname == '/') {
-    $('#secondary-nav ul.nav li:first').addClass('active');
-  }
 
   $("#secondary-nav ul.nav li a").each(function() {
     var href = window.location.href.slice(0,-1);
     var path = this['href'];
     if (window.location.pathname != '/' && href == path) {
+      $('#secondary-nav ul.nav li:first').removeClass('active');
       $(this).parent().addClass('active');
     }
   });
