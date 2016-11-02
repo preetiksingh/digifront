@@ -20,6 +20,17 @@ body {
 		outline:none;
 	}
 
+	li {
+		a{
+			color:#000;
+		}
+	}
+
+	select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px !important;
+}
+
 }
 
 @media (min-width: 1200px) {

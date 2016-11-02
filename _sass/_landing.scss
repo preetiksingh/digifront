@@ -12,8 +12,6 @@
 			width: 100%;
 			top: 50%;
 			transform: translateY(-50%);
-
-			
 			
 			h1 {
 				letter-spacing: 5px;
@@ -29,7 +27,7 @@
 			}
 		}
 
-		input {
+		input,select {
 
 			border-radius: 0;
 			background-color: $gray;
@@ -41,7 +39,6 @@
 			font-size: 20px; 
 			font-weight:400;
 			font-family: 'Open Sans', sans-serif;
-
 
 		}
 
@@ -79,7 +76,7 @@
 			margin-bottom: 35px;
 		}
 
-	
+		
 
 	}
 
