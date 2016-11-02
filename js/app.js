@@ -20,22 +20,21 @@ $(document ).ready(function() {
     }
   });
 
- 
 
   $(".search").click(function(){
-     var boro_no = $('#borough-select').val();
-  var house_no = $('#house-no').val();
-  var street = $('#street').val();
-  var params = { 
-      boro: boro_no,
-      houseno: house_no,
-      street: street
-    }
+   var boro_no = $('#borough-select').val();
+   var house_no = $('#house-no').val();
+   var street = $('#street').val();
+   var params = { 
+    boro: boro_no,
+    houseno: house_no,
+    street: street
+  }
 
-    var url = "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?" + $.param(params)
-    console.log(url);
-    window.location=url;
-  });
+  var url = "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?" + $.param(params)
+  console.log(url);
+  window.location=url;
+});
 
 
 
