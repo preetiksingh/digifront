@@ -32,6 +32,14 @@
 		margin-left:119px;
 	}
 
+
+
+	#scroll-content {
+		height:600px;
+		overflow-y:scroll;
+		position:relative;
+	}
+
 	.glossary-column {
 		border-right:1px solid #dadada;
 		padding:20px 60px 20px 0;
@@ -95,19 +103,38 @@
 		
 		ul{
 			list-style: none;
-			margin-bottom:20px;
+			margin-bottom:10px;
 			li {
 				display:inline-block;
 				background-color: #F1F8FE;
 				width:50px;
 				text-align: center;
 				height:50px;
-				padding-top:16px;
+				padding-top:7px;
 				margin-right:10px;
 				font-weight: bold;
+				&.active {
+					background-color: #2b84d0;
+					a {
+					color:#fff;
+				}
+				}
+
+				a{
+					&:hover, &:active, &:focus {
+						background-color:transparent;
+					}
+
+				}
 
 			}
 		}
+		ul.nav {
+			margin-left:37px;
+		}
+		.last-ul {
+		margin-bottom: 40px !important;
+	}
 	}
 	.links-heading {
 		border-top: 1px solid #dadada;
@@ -118,6 +145,7 @@
 			margin-bottom: 4px;
 		}
 	}
+
 }
 
 @media only screen and (max-width: 768px) {

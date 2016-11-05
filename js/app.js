@@ -10,6 +10,8 @@ $(document ).ready(function() {
     $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20 mar-small" id=' + '"violation-' + count + '">' )
   });
 
+  // $('#scroll-content').scrollspy({target: "#scroll-target"});
+
 
   $("#secondary-nav ul.nav li a").each(function() {
     var href = window.location.href.slice(0,-1);
