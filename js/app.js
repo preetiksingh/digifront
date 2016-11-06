@@ -60,7 +60,7 @@ $("#scroll-target ul li a[href^='#']").on('click', function(e) {
  var hash = this.hash;
  $('#scroll-content').animate({
      scrollTop: $(hash).offset().top
-   }, 400, function(){
+   }, 700, function(){
      window.location.hash = hash;
    });
 
