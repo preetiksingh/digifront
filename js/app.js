@@ -4,10 +4,11 @@ $(document ).ready(function() {
       top: 760
     }
   });
-  count=3
+  var count=1
 
   $(".add-btn").click(function(){
     $(".violation-input").append('<input type="text" placeholder="Violation Number"  class="mar-20 mar-small" id=' + '"violation-' + count + '">' )
+    count = count+1;
   });
 
   // $('#scroll-content').scrollspy({target: "#scroll-target"});
